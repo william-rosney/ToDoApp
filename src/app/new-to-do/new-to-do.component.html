@@ -1,0 +1,7 @@
+<div class="new-todo">
+    <h1>New ToDo</h1>
+  <form #newTodoFrom="ngForm" (ngSubmit)="onSubmit()" autocomplete="off">
+    <input type="text" [(ngModel)]="newTodo" name="newTodo" placeholder="New Todo"/>
+    <button type="submit">Add</button>
+  </form>
+</div>

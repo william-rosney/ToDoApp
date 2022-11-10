@@ -1,0 +1,7 @@
+.todo-item{
+    text-align: center;
+    border: 3px solid black;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
